@@ -83,4 +83,5 @@ I have since added a small 9g servo to the top of the box to operate the dial (w
 The addition of the servo is very simple, so I won't get into the details (as there is not much to get into), but consists of adding a mounting arm to the top of the box and a coupling for the servo arm to attatch directly to the potentiometer secured in with a little contact adhesive.
 
 ![Blender servo arm](./Images/Dimmer-v1.png)
+
 _Potentiometer blender with added servo._
