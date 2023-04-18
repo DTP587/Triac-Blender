@@ -4,7 +4,7 @@
 
 This project involves the [phase-angle control](https://electricalacademia.com/electronics/scr-thyristor-phase-control-circuit/) of AC signals. this allows for accurate power delivery but it is important to remember that rotational speed of the blender $\neq$ power.
 
-<img src="./Images/Blender_Motor_Wiring_Schem.png"  width="600" height="300">
+<img src="./Images/Blender_Motor_Wiring_schem.png"  width="600">
 
 _Very basic wiring of a dimmer module with potentiometer control or arduino control, depending on the circuit._
 
