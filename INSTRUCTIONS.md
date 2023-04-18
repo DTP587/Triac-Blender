@@ -4,7 +4,7 @@
 
 This project involves the [phase-angle control](https://electricalacademia.com/electronics/scr-thyristor-phase-control-circuit/) of AC signals. this allows for accurate power delivery but it is important to remember that rotational speed of the blender $\neq$ power.
 
-<img src="./Images/Blender_Motor_Wiring_Schem.pdf"  width="600" height="300">
+<img src="./Images/Blender_Motor_Wiring_Schem.png"  width="600" height="300">
 
 _Very basic wiring of a dimmer module with potentiometer control or arduino control, depending on the circuit._
 
@@ -76,7 +76,7 @@ CAD files for printing the box are given in the `CAD` folder. There's not much t
 ## Arduino Code
 
 ![Blender speed versus servo angle](./Images/desmos-graph.png)
-_Servo angle (x) against rotor speed (y). Notice the sharp dip in speed around $\theta=50\;rpm$. This explains why speed is unreliable here._
+_Servo angle (x) against rotor speed (y). Notice the sharp dip in speed around_ $\theta$ _= 50 rpm This explains why speed is unreliable here; Small changes at low power settings make the speed very touchy and sensitive to position._
 
 I have since added a small 9g servo to the top of the box to operate the dial (which allows for on-off cycling). As it doesn't affect the main electronics, I'll add the code used to operate it in the code folder. The data is [on desmos](https://www.desmos.com/calculator/bqjuhv8qqg) if you're looking to play around with it.
 
