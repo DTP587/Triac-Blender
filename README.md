@@ -1,5 +1,5 @@
 # Triac Blender
-_Blender with Triac v1, Build Notes. Part of the Open Science Framework repository [Open2DM](https://osf.io/evupy/)_
+_Blender with Triac v1, Build Notes. Part of the Open Science Framework repository [OpenLPE](https://osf.io/evupy/)_
 
 ![Image of all three blenders in order](./Images/Blenders.jpeg)
 
@@ -7,7 +7,7 @@ _From right to left, Triac-Blender v1, Triac-Blender v2, PID-Blender._
 
 ### Background \& Motivation
 
-_This is part of the [Open2DM](https://osf.io/evupy/) labware project._
+_This is part of the [OpenLPE](https://osf.io/evupy/) labware project._
 
 There are no reasonably priced commercial blenders with adequate speed control for practical experiments. The closest is the [Waring LB20ES](https://www.thelabstore.co.uk/waring-lb20es-variable-speed-control-blender-1-0-litre-stainless-steel-container-230v-50-hz-ce-approved-rohs-with-european-f-schuko-plug.html), being over £1000. This left us feeling priced out, so we had to come up with an alternative, which is this Triac modification, enabling for great power selectivity. Speed is unreliable at low speeds (< $2000$ $rpm$), but stays pretty constant at higher speeds ($\pm\;1000\;rpm$).
 
